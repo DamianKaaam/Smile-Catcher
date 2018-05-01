@@ -1,0 +1,35 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(img/smile.jpg);
+   background-repeat: repeat;
+   background-position: center;
+   background-size: 50px;
+}
+
+.game-box {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 80vh;
+}
+
+h1 {
+   margin-top: 18px;
+   text-align: center;
+   font-family: 'Indie Flower', cursive;
+   color: #fff;
+   font-size: 50px;
+   text-transform: uppercase;
+}
+
+canvas {
+   background-color: #fff;
+   border-radius: 10px;
+   box-shadow: 0 0 100px #000;
+   cursor: none;
+}
